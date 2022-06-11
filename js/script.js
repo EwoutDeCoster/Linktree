@@ -7,7 +7,11 @@ function fetchdata(){
         data.buttons.forEach(element => {
             console.log(element.text);
             let btnlist = document.getElementById("btnlist");
-            btnlist.insertAdjacentHTML("afterbegin", `<button onclick="location.href='${element.url}';">${element.text}</button>`)
+            btnlist.insertAdjacentHTML("afterbegin", `<button onclick="location.href='${element.url}';">${element.text}</button>`);
+            let footer = document.getElementById("footer");
+            footer.innerHTML = "Made by &copy; Ewoutdc";
+            footer.onclick = ()=> window.location.href = "https://github.com/EwoutDeCoster/Linktree"
+            footer.title = "Github repository";
         });
     })
 }
