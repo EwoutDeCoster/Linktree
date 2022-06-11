@@ -1,0 +1,165 @@
+$buttonbg: #2283bb;
+
+body {
+    font-family:  "Helvetica Neue",Helvetica,Arial;
+    background-color: #008ada;
+    color: white;
+    margin: 0;
+}
+
+.head-div {
+    text-align:center;
+    padding:20%;
+    padding-top:2%;
+    padding-bottom:3%;
+    }
+    
+    .link-div{ 
+        padding:20%;
+        padding-top:0;
+        padding-bottom:1%;
+    }
+
+
+    .line {
+        width: 53px;
+        height: 0;
+        border: 1px solid #C4C4C4;
+        margin: 3px;
+        display:inline-block;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+      }
+
+    .logo-img {
+        width: 20%;
+        min-width: 100px;
+        max-width: 250px;
+        border-radius: 100%;
+        box-shadow:0 10px 10px rgba(0, 0, 0, 0.178);
+    }
+
+    button{
+        text-align: center;
+        margin-top: 25px;
+        width: 100%;
+        max-width: 590px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        outline:0; 
+        font-size:1em;
+        font-weight:600;
+        background:#fff;
+        border:none;
+        padding:2em 4em;
+        transition:all .3s ease-out; 
+        box-shadow:inset 0 -8px 0 0 rgba(0,0,0,.2),
+          1px 1px 0 0 $buttonbg,
+          2px 2px 0 0 $buttonbg,
+          3px 3px 0 0 $buttonbg,
+          4px 4px 0 0 $buttonbg,
+          5px 5px 0 0 $buttonbg,
+          6px 6px 0 0 $buttonbg,
+          7px 7px 0 0 $buttonbg,
+          8px 8px 0 0 $buttonbg,
+          9px 9px 0 0 $buttonbg,
+          10px 10px 0 0 $buttonbg,
+          11px 11px 0 0 $buttonbg,
+          12px 12px 0 0 $buttonbg;
+      }
+      button:hover{
+        color:#444;
+        transition:all .3s ease-in; 
+        box-shadow:inset 0 -8px 0 0 rgba(0,0,0,.2),
+          1px 1px 0 0 $buttonbg,
+          2px 2px 0 0 $buttonbg,
+          3px 3px 0 0 $buttonbg,
+          4px 4px 0 0 $buttonbg,
+          5px 5px 0 0 $buttonbg,
+          6px 6px 0 0 $buttonbg,
+          7px 7px 0 0 $buttonbg,
+          8px 8px 0 0 $buttonbg;
+          cursor: pointer;
+
+      }
+      button:active{
+        color:#222;
+        box-shadow:inset 0 -4px 0 0 rgba(0,0,0,.2),
+          1px 1px 0 0 $buttonbg,
+          2px 2px 0 0 $buttonbg,
+          3px 3px 0 0 $buttonbg,
+          4px 4px 0 0 $buttonbg,
+          5px 5px 0 0 $buttonbg;
+      }
+
+
+      footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 2.5rem;
+        font-size: 10px;
+        margin-left: 1rem;
+      }
+
+
+    .socials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .socials div:hover {
+        box-shadow:0 5px 5px rgba(0, 0, 0, 0.178);
+        transition:all .1s ease-in; 
+
+    }
+
+    .socials div {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10px;
+        box-shadow:0 10px 10px rgba(0, 0, 0, 0.178);
+        transition:all .3s ease-in; 
+    }
+    .socials a {
+        text-decoration: none;
+        color: white;
+        font-size: 32px;
+    }
+
+    .instagram {
+        background: #d6249f !important;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) !important;
+    }
+
+    .github {
+        background-color: black;
+    }
+
+    .linkedin {
+        background-color: #0a66c2;
+    }
+    .twitter {
+        background-color: #1a8cd8;
+    }
+    
+    

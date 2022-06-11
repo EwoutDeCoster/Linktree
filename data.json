@@ -1,0 +1,13 @@
+{
+    "buttons": [
+        {
+            "text": "Pineapplebot",
+            "url": "https://pineapple-bot.netlify.app/"
+        },
+        {
+            "text": "Website",
+            "url": "https://www.ewoutdecoster.be/"
+        }
+        
+    ]
+}
